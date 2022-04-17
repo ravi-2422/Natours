@@ -1,0 +1,38 @@
+@keyframes moveInleft {
+    0% {
+        capacity: 0;
+        transform: translate(-10rem);
+    }
+    80% {
+        transform: translate(1rem);
+    }
+    100% {
+        capacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        capacity: 0;
+        transform: translate(10rem);
+    }
+    80% {
+        transform: translate(-1rem);
+    }
+    100% {
+        capacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        capacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        capacity: 1;
+        transform: translate(0);
+    }
+}
